@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Lista auto</title>
+</head>
+<body>
+ <div class="container">
+<form action = "/submit" method = "post">
+<label>Modello</label>
+<input type = "text" name = "modello">
+<br>
+<label>Marca</label>
+<input type = "text" name = "marca">
+<br>
+<label>Tipologia</label>
+<input type = "text" name = "tipologia">
+<br>
+<label>Prezzo</label>
+<input type = "number" name = "prezzo">
+<br>
+<label>Img</label>
+<input type = "text" name = "img">
+
+<input type = "submit" value = "Invia">
+
+</div>
+
+<div class="container">
+
+<br>
+<br>
+<form action = "/show" method = "get">
+
+<input type = "submit" value = "show">
+</form>
+</div>
+
+
+</body>
+</html>
